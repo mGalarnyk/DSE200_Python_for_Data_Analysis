@@ -1,0 +1,11 @@
+.DS_Store
+Thumbs.db
+*.pyc
+out
+.ipynb_checkpoints
+vagrant/bootstrap_complete.txt
+ipynb/ipython_notebook.nohup.out
+vagrant/.vagrant/
+twitter.oauth_access
+.vagrant
+Berksfile.lock
