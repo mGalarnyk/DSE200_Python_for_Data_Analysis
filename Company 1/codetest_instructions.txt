@@ -1,0 +1,103 @@
+--------------------------------------------------------------------------------
+ Challenge                           | 
+--------------------------------------------------------------------------------
+The purpose of this test is to test your ability to write software to collect, 
+normalize, store, analyze and visualize “real world” data. The test is designed 
+to take about four hours, but it is not timed. Please try to deliver your 
+results within 24 hours.
+
+You may also use any tools or software on your computer, or that are freely 
+available on the Internet. We prefer that you use simpler tools to more complex 
+ones and that you are “lazy” in the sense of using third party APIs and 
+libraries as much as possible. We encourage the reuse of code when appropriate. 
+If you include code directly in your submission that was written by someone else 
+other than commonly imported modules, please be sure to provide proper 
+attribution, including a URL, text, author, etc. or other available information
+in the code comments.
+
+Do as much as you can, as well as you can. Prefer efficient, elegant solutions. 
+Prefer scripted analysis to unrepeatable use of GUI tools. For data security and
+transfer time reasons, you have been given a relatively small data file. Prefer 
+solutions that do not require the full data set to be stored in memory.
+
+There is certainly no requirement that you have previous experience working on 
+these kinds of problems. Rather, we are looking for an ability to research and 
+select the appropriate tools for an open-ended problem and implement something 
+meaningful. We are also interested in your ability to work on a team, which 
+means considering how to package and deliver your results in a way that makes 
+it easy for us to review them. Undocumented code and data dumps are virtually 
+useless; commented code and a clear writeup with elegant visuals are ideal. 
+
+
+--------------------------------------------------------------------------------
+|         Code Test Part 1: Model building on a synthetic dataset              | 
+--------------------------------------------------------------------------------
+
+We have provided two tab-delimited files along with these instructions:
+
+    - codetest_train.txt: 5,000 records x 254 features + 1 target (~7.8MB)
+    - codetest_test.txt : 1,000 records x 254 features            (~1.5MB)
+
+These two synthetic datasets were generated using the same underlying data 
+model. Your goal is to build a predictive model using the data in the training 
+dataset to predict the withheld target values from the test set. 
+
+You may use any tools available to you for this task. Ultimately, we will
+assess predictive accuracy on the test set using the mean squared error metric.
+You should return to us the following:
+
+    - A 1,000 x 1 text file containing 1 prediction per line for each record
+        in the test dataset.
+
+    - A brief writeup describing the techniques you used to generate the
+        predictions. Details such as important features and your estimates of 
+        predictive performance are helpful here, though not strictly 
+        necessary.
+
+    - (Optional) An implementable version of your model. What this would look
+        like largely depends on the methods you used, but could include things
+        like source code, a pickled Python object, a PMML file, etc. Please
+        do not include any compiled executables. If you choose not to submit
+        this, please ensure your modeling methods are adequately described 
+        in the writeup.
+
+
+--------------------------------------------------------------------------------
+|                       Code Test Part 2: Baby Names!                          |
+--------------------------------------------------------------------------------
+
+In this section, you will acquire and analyze a real dataset on baby name 
+popularity provided by the Social Security Administration. To warm up, we will 
+ask you a few simple questions that can be answered by inspecting the data.
+
+A) Descriptive analysis
+
+The data can be downloaded in zip format from:
+http://www.ssa.gov/oact/babynames/state/namesbystate.zip
+
+1.  Please describe the format of the data files. Can you identify any 
+    limitations or distortions of the data?
+2.  What is the most popular name of all time? (Of either gender.)
+3.  What is the most gender ambiguous name in 2013? 1945?
+4.  Of the names represented in the data, find the name that has had the largest 
+    percentage increase in popularity since 1980. Largest decrease?
+5.  Can you identify names that may have had an even larger increase or decrease 
+    in popularity?
+
+
+B) Onward to Insight!
+
+What insight can you extract from this dataset? Feel free to combine the baby 
+names data with other publicly available datasets or APIs, but be sure to include 
+code for accessing any alternative data that you use.
+
+This is an open­ended question and you are free to answer as you see fit. In 
+fact, we would love it if you find an interesting way to look at the data that 
+we haven't thought of! 
+
+Please provide us with both your code and an informative write­up of your 
+results. The code should be in a runnable form. Do not assume that we have a 
+copy of the data set or that we are familiar with the build procedures for your 
+chosen language.  
+
+                                  Good luck!
