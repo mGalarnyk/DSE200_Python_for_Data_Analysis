@@ -1,9 +1,10 @@
-# <strong>DSE200 Python for_Data_Analysis</strong>
+# DSE200 Python for_Data_Analysis
     Working on redoing my assignments in the class more clearly
 
 ## IPython Notebooks for Assignments (From Newest to Oldest)
 
-    [Day 5: OAuth, Twitter API, TF-IDF](https://github.com/mGalarnyk/DSE200_Python_for_Data_Analysis/blob/master/day_5_mining_the_Social_web/exercises/Scraping_Exercise_3_mike.ipynb)
+![Day 5: OAuth, Twitter API, TF-IDF](https://github.com/mGalarnyk/DSE200_Python_for_Data_Analysis/blob/master/day_5_mining_the_Social_web/exercises/Scraping_Exercise_3_mike.ipynb "Day 5: OAuth, Twitter API, TF-IDF")
+
     
     [Day 5: Scraping MLB stats from ESPN go](https://github.com/mGalarnyk/DSE200_Python_for_Data_Analysis/blob/master/day_5_mining_the_Social_web/exercises/Scraping_Exercise_1_mike.ipynb)
     
