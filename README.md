@@ -21,3 +21,13 @@ Working on redoing my assignments in my Data Science 200 (DSE 200) masters cours
     
 [Day 1: Unix Exercises (Reconstructing files from segments, Word and line count,cat, pipelines etc etc)](https://github.com/mGalarnyk/DSE200_Python_for_Data_Analysis/blob/master/day_1_python_and_unix/5_unix_exercises.ipynb "Day 1: Unix Exercises (Reconstructing files from segments, Word and line count,cat, pipelines etc etc)")
 
+## Exams 
+
+[Practice Final](https://github.com/mGalarnyk/DSE200_Python_for_Data_Analysis/blob/master/Practice_Final.ipynb "Practice Final")
+
+[Practice Final Solutions](https://github.com/mGalarnyk/DSE200_Python_for_Data_Analysis/blob/master/Practice_Final_Solutions.ipynb "Practice Final Solutions")
+
+[Final](https://github.com/mGalarnyk/DSE200_Python_for_Data_Analysis/blob/master/Final_Exam_Final2.ipynb "Final")
+      
+[Final Solutions](https://github.com/mGalarnyk/DSE200_Python_for_Data_Analysis/blob/master/Final_Exam_solutions.ipynb "Final Solutions") 
+
